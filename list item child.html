@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1
+        {
+           height: 200px;
+           width: 200px;
+           background-color: blueviolet;
+
+        }
+        .div1:hover{
+            background-color: rgb(15, 99, 224);
+            border-radius:50px;
+        }
+        .nav
+        {
+           
+            text-align: center;
+            background-color: rgb(196, 235, 21);
+          padding: 30px;
+        
+        
+        }
+        a
+        {
+            text-decoration: none;
+            font-weight: bold;
+            word-spacing: 30px;
+            color: rgb(24, 3, 3);
+        }
+        a:hover
+        {
+            color: red;
+            background-color: rgb(33, 30, 211);
+            font-size: 30px;
+            text-decoration: overline;
+            font-weight: bold;
+        }
+        li:first-child
+        {
+            background-color:blueviolet;
+            color: rgb(209, 223, 15);   
+            font-size: 50px;
+        }
+     li:last-child
+     {
+        background-color: rgb(231, 21, 214);
+            color: rgb(140, 221, 9);
+            font-size: 70px;
+     }
+     li:nth-child(2), li:nth-child(5)
+     {
+        background-color: rgb(26, 3, 24);
+            color: rgb(75, 231, 13);
+            font-size: 70px;
+     }
+     p::first-line
+     {
+        font-size: 35px;
+        color: rgb(32, 207, 8);
+     }
+     p::first-letter
+     {
+        font-size: 35px;
+        font-family: cursive;
+     }
+     p:after
+    {
+        content:'this is after property';
+        font-size: 50px;
+        color: deeppink;    
+        text-decoration: underline;
+     }
+     p::before
+    
+     {
+        content: 'this is  before property';
+        color: black;
+        text-decoration:underline;
+     }
+     
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+
+    </div>
+
+    <div class="nav">
+        <a href=""> HOME </a>
+        <a href=""> HOME </a>
+        <a href=""> HOME </a>
+        <a href=""> HOME </a>
+        <a href=""> HOME </a>
+
+    </div>
+    <ul>
+         <li> one</li>
+         <li> two</li>
+         <li> one</li>
+         <li> two</li> 
+         <li> two</li>
+         <li> one</li>
+         <li> two</li>
+         <li> one</li>
+         <li> one</li>
+         <li> two</li>
+         <li> two</li>
+         <li> one</li>
+         <li> two</li>
+    </ul>
+    <p >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum totam omnis aut reprehenderit eligendi nemo ipsa earum dignissimos nisi doloremque soluta blanditiis quo voluptate sit nam, ratione odio minus aspernatur?
+    </p>
+    <p >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas quas quod vitae obcaecati totam, illum id doloribus tempora est dicta, saepe magnam consequatur ex alias. Quaerat hic nesciunt tempore.
+    </p>
+    
+</body>
+</html>
