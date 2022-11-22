@@ -1,0 +1,160 @@
+body
+{
+    margin: 0;
+    background-color: black;
+}
+.div1
+{
+    height: 130px;
+    width: 400px;
+    background-image: linear-gradient(yellow,black);
+    /* border-radius: 50%; */
+    position: absolute;
+    /* margin-left: 500px; */
+    
+
+    animation-name: abhi;
+    animation-duration: 5s;
+    animation-delay:4s;
+    animation-iteration-count: infinite;
+}
+.div2
+{
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(yellow,black);
+    border-radius: 50%;
+    position: absolute;
+    /* margin-left: 500px; */
+    
+
+    animation-name: abhi1;
+    animation-duration: 5s;
+    animation-delay:3s;
+    animation-iteration-count: infinite;
+}
+
+
+ @keyframes abhi 
+{
+    0%{
+        left:0;
+        top:0;
+        background-image: linear-gradient(yellow,blue);
+    }
+    5%{
+        left:200px;
+        top:0px;
+        background-image: linear-gradient(rgb(12rgb(255, 77, 0), 58),rgb(255, 234, 0));
+    }
+    10%{
+        left:200px;
+        top:200px;
+        background-image: linear-gradient(rgba(47, 38, 126, 0.553),blue);
+    }
+    15%{
+        left:300px;
+        top:200px;
+        background-image: linear-gradient(rgb(168, 15, 56),blue);
+    }
+    20%{
+        left:300px;
+        top:300px;
+        background-image: linear-gradient(rgb(60, 120, 129),blue);
+    }
+    25%{
+        left:400px;
+        top:300px;
+        background-image: linear-gradient(rgb(212, 210, 82),blue);
+    }
+    30%{
+        left:400px;
+        top:400px;
+        background-image: linear-gradient(rgb(40, 74, 80),blue);
+    }
+    35%{
+        left:500px;
+        top:400px;
+        background-image: linear-gradient(rgb(123, 95, 184),blue);
+    }
+    40%{
+        left:500px;
+        top:500px;
+        background-image: linear-gradient(rgb(153, 143, 221),blue);
+
+    }
+    45%{
+        left:600px;
+        top:500px;
+        background-image: linear-gradient(rgb(43, 169, 220),blue);
+
+    }
+    50%{
+        left:600px;
+        top:600px;
+        background-image: linear-gradient(rgb(164, 178, 164),blue);
+
+    }
+}
+    @keyframes abhi1 
+{
+        0%{
+            left:0;
+            top:0;
+            background-image: linear-gradient(yellow,blue);
+        }
+        5%{
+            left:200px;
+            top:0px;
+            background-image: linear-gradient(rgb(12rgb(255, 77, 0), 58),rgb(255, 234, 0));
+        }
+        10%{
+            left:200px;
+            top:200px;
+            background-image: linear-gradient(rgba(47, 38, 126, 0.553),blue);
+        }
+        15%{
+            left:300px;
+            top:200px;
+            background-image: linear-gradient(rgb(168, 15, 56),blue);
+        }
+        20%{
+            left:300px;
+            top:300px;
+            background-image: linear-gradient(rgb(60, 120, 129),blue);
+        }
+        25%{
+            left:400px;
+            top:300px;
+            background-image: linear-gradient(rgb(212, 210, 82),blue);
+        }
+        30%{
+            left:400px;
+            top:400px;
+            background-image: linear-gradient(rgb(40, 74, 80),blue);
+        }
+        35%{
+            left:500px;
+            top:400px;
+            background-image: linear-gradient(rgb(123, 95, 184),blue);
+        }
+        40%{
+            left:500px;
+            top:500px;
+            background-image: linear-gradient(rgb(153, 143, 221),blue);
+    
+        }
+        45%{
+            left:600px;
+            top:500px;
+            background-image: linear-gradient(rgb(43, 169, 220),blue);
+    
+        }
+        50%{
+            left:600px;
+            top:600px;
+            background-image: linear-gradient(rgb(164, 178, 164),blue);
+    
+        }
+
+}
